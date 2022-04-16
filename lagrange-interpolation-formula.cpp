@@ -9,6 +9,7 @@ public:
     int n, at;
     double x[100], y[100];
     double ans = 0;
+
     LagrangeInterpolationFormula() {
         cin >> n;
         for (int k = 0; k < n; k++) {
@@ -16,6 +17,7 @@ public:
         }
         cin >> at;
     }
+    
     void solve() {
         for (int i = 0; i < n; i++) {
             double term = y[i];

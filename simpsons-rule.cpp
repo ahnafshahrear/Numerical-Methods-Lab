@@ -18,6 +18,7 @@ public:
         upper = b;
         grids = n;
     }
+    
     void solve() {
         gridSpacing = (upper - lower) / grids;
         answer = function(lower) + function(upper);

@@ -15,6 +15,7 @@ public:
             cin >> x[k] >> y[k];
         }
     }
+    
     void solve() {
         double xSum = 0, ySum = 0, xySum = 0, xSquare = 0;
         for (int k = 0; k < size; k++) {
