@@ -1,0 +1,12 @@
+.cph/
+.vscode/
+bisection-method.bin
+false-position-method.bin
+lagrange-interpolation-formula.bin
+least-square-curve-fitting.bin
+newton-raphson-method.bin
+newtons-divided-difference-interpolation-formula.bin
+newtons-forward-interpolation-formula.bin
+secant-method.bin
+simpsons-rule.bin
+trapezoidal-rule.bin
