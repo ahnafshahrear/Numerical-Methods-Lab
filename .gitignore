@@ -10,3 +10,4 @@ newtons-forward-interpolation-formula.bin
 secant-method.bin
 simpsons-rule.bin
 trapezoidal-rule.bin
+.gitignore
