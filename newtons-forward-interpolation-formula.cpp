@@ -17,17 +17,20 @@ public:
         }
         cin >> value;
     }
+    
     double uFunction(double u, int n) {
         double value = u;
         for (int k = 1; k < n; k++) value = value * (u - k);
         return value;
     }
+
     int factorial(int n) {
         if (n) {
             return n * factorial(n - 1);
         }
         else return 1;
     }
+
     void solve() {
         for (int c = 1; c < n; c++) {
             for (int r = 0; r < n - c; r++) {

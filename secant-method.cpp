@@ -15,7 +15,7 @@ public:
 
     void solve() {
         srand((int)time(0));
-        root = rand() % 100;
+        root = rand() % 10;
         root = -1 * root;
         double previousRoot = 1000;
         while (true) {

@@ -27,9 +27,9 @@ public:
     }
 
     void createTable() {
-        for (int i = 1; i < n; i++) {
-            for (int j = 0; j < n - i; j++) {
-                y[j][i] = (y[j + 1][i - 1] - y[j][i - 1]) / (x[j + i] - x[j]);
+        for (int c = 1; c < n; c++) {
+            for (int r = 0; r < n - c; r++) {
+                y[r][c] = (y[r + 1][c - 1] - y[r][c - 1]) / (x[r + c] - x[r]);
             }
         }
     }
